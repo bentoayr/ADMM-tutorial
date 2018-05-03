@@ -1,3 +1,3 @@
 # ADMM-tutorial
 
-This is a test
+This is a very simple tutorial on ADMM.
