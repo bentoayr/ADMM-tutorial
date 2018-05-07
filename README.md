@@ -1,5 +1,5 @@
 # ADMM-tutorial
 
-This is a very short, hands-on, tutorial on ADMM. It is based on the tutorial presented at Open Science Data Conference, Boston, 2018.
+This is a very short, hands-on, tutorial on ADMM. It is based on the tutorial presented at the 2018, Open Science Data Conferenc in Boston.
 
 To be posted soon...
