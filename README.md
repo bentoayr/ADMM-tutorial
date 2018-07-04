@@ -9,5 +9,5 @@ The tutorial covers four different problems. All of them are solved using the Al
 Two of the examples concern convex optimization problems: SVM and Total Variation Denoising.
 Two of the examples concern non-convex optimization problems: Circle packing and solving Sudoky puzzles.
 
-The tutorial and the code approaches the problem from the angle that leads to the math and code being as simple as possible.
-The code is not mean for speed.
+The tutorial, and the code, approach the problems from an angle that leads to the math and code being as simple as possible.
+The code is not mean for speed, and the variant of the ADMM that we cover is not the fastest possible one.
