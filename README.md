@@ -10,4 +10,4 @@ Two of the examples concern convex optimization problems: SVM and Total Variatio
 Two of the examples concern non-convex optimization problems: Circle packing and solving Sudoky puzzles.
 
 The tutorial, and the code, approach the problems from an angle that leads to the math and code being as simple as possible.
-The code is not mean for speed, and the variant of the ADMM that we cover is not the fastest possible one.
+The code is not meant for speed, and the variant of the ADMM that we cover is not the fastest possible one.
