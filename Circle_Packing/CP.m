@@ -13,7 +13,7 @@ m_coll =  randn(num_balls, num_balls,4);
 
 z = randn(num_balls,2);
 
-for i=1:100000
+for t=1:100000
     
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %
@@ -42,9 +42,9 @@ for i=1:100000
     
     z = 0*z;
     
-    for i = 1:num_balls
-        z(i,1) = z(i,1) + m_box(i,1);
-        z(i,2) = z(i,2) + m_box(i,2);
+    for j = 1:num_balls
+        z(j,1) = z(j,1) + m_box(j,1);
+        z(j,2) = z(j,2) + m_box(j,2);
     end
     for j = 1:num_balls-1
         for k = j+1:num_balls
