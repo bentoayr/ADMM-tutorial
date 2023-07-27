@@ -1,5 +1,5 @@
-function [x_1, x_2, x_3, x_4] = P_coll(z_minus_u_1, z_minus_u_2, z_minus_u_3, z_minus_u_4)
-    global r;
+function [x_1, x_2, x_3, x_4] = P_coll(z_minus_u_1, z_minus_u_2, z_minus_u_3, z_minus_u_4 , r)
+    
     d = sqrt((z_minus_u_1 - z_minus_u_3)^2  + (z_minus_u_2 - z_minus_u_4)^2);
     if (d > 2*r)
         x_1 = z_minus_u_1; x_2 = z_minus_u_2;
